@@ -1,7 +1,6 @@
 # holbertonschool-validation
 
-Prerequisites
-=============
+## Prerequisites
 
 - Use the theme “ananke” for the website
 - Usage of Git Submodules is prohibited: there should be no file .gitmodules
@@ -12,11 +11,10 @@ Prerequisites
 - The website is expected to be generated into the directory module1_task0/dist/
 - The directory module1_task0/dist/ must not be committed (it should be absent from the repository)
 
-Lifecycle
-=========
+## Lifecycle
 
-Steps
------
+### Steps
 - build: Generate the website from the markdown and configuration files in the directory dist/.
 - clean: Cleanup the content of the directory dist/
 - post: Create a new blog post whose filename and title come from the environment variables POST_TITLE and POST_NAME.
+- help: Show the help usage
